@@ -49,4 +49,16 @@ void main() {
 
   print(array1);
   print(array2);
+
+  // Kata Kunci late
+  // standarnya variable akan dideklarasikan nilainya ketika variable dibuat;
+  // Contoh
+  late var value = getValue();
+  print('variable sudah dibuyat');
+  print(value);
+}
+
+String getValue() {
+  print("Eksekusi di GetValue");
+  return "Faraham from sTring";
 }

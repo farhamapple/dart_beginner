@@ -20,4 +20,15 @@ void main() {
   // String .toString()
   var stringFromInt = convInt.toString();
   var stringFromDouble = contDouble.toString();
+
+  // Konversi Boolean dan String
+  /// Untuk melakukan konversi tipe data Boolean ke String, kita bisa menggunakan method toString()
+  /// Sedangkan untuk melakukan konversi tipe data String ke Boolean tidak ada caranya oleh karena itu unutk melakukan halin in  bisa menggunakan operator perbandingan
+
+  var inputStringBoolean = 'true';
+  var inputBoolean = inputStringBoolean == 'true';
+
+  var booleanToString = inputBoolean.toString();
+  print(inputBoolean);
+  print(booleanToString);
 }
